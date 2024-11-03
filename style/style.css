@@ -68,7 +68,7 @@ body {
     margin-bottom:0;
 }
 #social-links .link:hover {
-    color:var(--grey-900);
+    background-color:var(--green);
 }
 @media (min-width: 426px) {
     #card {
