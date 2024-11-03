@@ -40,7 +40,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Taresta/Social-Links-Profile.git)
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [Add live site URL here](https://taresta.github.io/Social-Links-Profile/)
 
 ## My process
 
