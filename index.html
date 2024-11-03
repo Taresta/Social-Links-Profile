@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css" />
   
   <title>Frontend Mentor | Social links profile</title>
 
@@ -14,25 +19,43 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  <main>
-    <section id="introduction">
-      <h1 id="profile-name">Jessica Randall</h1>
-      <p id="prfile-address">London, United Kingdom</p>
-      <p id="self-description">"Front-end developer and avid reader."</p>
-    </section>
-    <section id="social-links" aria-label="Social Links">
-      <a href="#" class="link GitHub">GitHub</a>
-      <a href="#" class="link Frontend Mentor">Frontend Mentor</a>
-      <a href="#" class="link Linkedln">LinkedIn</a>
-      <a href="#" class="link Twitter">Twitter</a>
-      <a href="#" class="link Instagram">Instagram</a>
-    </section>
+<body class="d-flex flex-column min-vh-100 py-3">
+  <main class="container my-auto" id="card">
+    <div class="row g-3">
+
+      <div class="col-12">
+        <section id="introduction">
+          <img id="profile-photo" src="./assets/images/avatar-jessica.jpeg" alt="Jessica's profile picture" />
+          <h1 id="profile-name">Jessica Randall</h1>
+          <p id="profile-address">London, United Kingdom</p>
+        </section>
+      </div>
+
+      <div class="col-12">
+        <p id="self-description">"Front-end developer and avid reader."</p>
+      </div>
+
+      <div class="col-12">
+        <section id="social-links" aria-label="Social Links">
+
+          <div class="row">
+            <div class="col-12">
+              <a href="#" class="link GitHub py-2">GitHub</a>
+              <a href="#" class="link Frontend Mentor py-2">Frontend Mentor</a>
+              <a href="#" class="link Linkedln py-2">LinkedIn</a>
+              <a href="#" class="link Twitter py-2">Twitter</a>
+              <a href="#" class="link Instagram py-2">Instagram</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    
   </main>
-  <footer>
+  <footer class="mt-4">
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Paradox Shadow</a>.
     </div>
   </footer>
 </body>
